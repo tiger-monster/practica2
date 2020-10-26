@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('PersonaController');
+$routes->setDefaultController('HouseController');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -30,12 +30,12 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'PersonaController::index');
-$routes->get('/DrHouse', 'PersonaController::index');
-$routes->get('/perso', 'PersonaController::personajes');
-$routes->get('/temporadas', 'PersonaController::tem');
-$routes->get('/libros', 'PersonaController::lib');
-$routes->get('/curiosidades', 'PersonaController::cur');
+$routes->get('/', 'HouseController::index');
+$routes->get('/DrHouse', 'HouseController::index');
+$routes->get('/perso', 'HouseController::personajes');
+$routes->get('/temporadas', 'HouseController::tem');
+$routes->get('/libros', 'HouseController::lib');
+$routes->get('/curiosidades', 'HouseController::cur');
 
 /**
  * --------------------------------------------------------------------
