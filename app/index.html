@@ -1,0 +1,21 @@
+<?php 
+require_once "header.php";
+require_once "menu.php";
+?>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="jumbotron" style="background-color: transparent;">
+				<h1 class="display-4">Bufete Jurídico</h1>
+				<p class="lead">Somos una firma de abogados especialistas en derecho penal, representamos y patrocinamos a las personas en los procesos derivados de la comisión de delitos, creamos estrategias de litigación y negociación acorde a las necesidades de cada causa.</p>
+				<hr class="my-4">
+				<a class="btn btn-primary btn-lg" href="contacto.php" role="button">Contacto</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php 
+require_once "footer.php";
+?>
