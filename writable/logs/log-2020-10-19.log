@@ -1,0 +1,9 @@
+CRITICAL - 2020-10-19 16:35:32 --> Invalid file: header.php
+#0 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\system\Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\app\Controllers\PersonaController.php(13): view('header')
+#3 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\system\CodeIgniter.php(918): App\Controllers\PersonaController->index()
+#4 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonaController))
+#5 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\unidad2PHPMVC\retroAlimentacion\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,3 @@
+CRITICAL - 2020-10-21 02:34:02 --> CodeIgniter\View\View::main(): Failed opening required 'header.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

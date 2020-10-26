@@ -1,0 +1,9 @@
+CRITICAL - 2020-10-23 21:28:43 --> preg_match(): Unknown modifier '$'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): U...', 'C:\\xampp\\htdocs...', 431, Array)
+#1 C:\xampp\htdocs\House\system\Router\Router.php(431): preg_match('#^#$#u', 'perso', NULL)
+#2 C:\xampp\htdocs\House\system\Router\Router.php(177): CodeIgniter\Router\Router->checkRoutes('perso')
+#3 C:\xampp\htdocs\House\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('perso')
+#4 C:\xampp\htdocs\House\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\House\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\House\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
